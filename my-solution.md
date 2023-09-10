@@ -58,9 +58,13 @@ Copy and paste the _output_ of the command(s) you ran into the code block below.
 
 ```
 On branch main
+
+No commits yet
+
 Changes to be committed:
-  (use "git restore --staged <file>..." to unstage)
-        modified:   readme.md
+  (use "git rm --cached <file>..." to unstage)
+        new file:   readme.md
+
 ```
 
 ## 6
@@ -77,9 +81,12 @@ Copy and paste the _output_ of the command(s) you ran into the code block below.
 
 ```
 On branch main
+
+No commits yet
+
 Changes to be committed:
-  (use "git restore --staged <file>..." to unstage)
-        modified:   readme.md
+  (use "git rm --cached <file>..." to unstage)
+        new file:   readme.md
 
 Changes not staged for commit:
   (use "git add <file>..." to update what will be committed)
