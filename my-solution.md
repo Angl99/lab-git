@@ -11,7 +11,8 @@ Create a new directory called `git-lab/`. Then, navigate inside of that director
 Copy and paste _the command(s)_ you used into the code block below.
 
 ```
-
+mkdir git-lab/
+cd git-lab
 ```
 
 ## 2
@@ -21,7 +22,7 @@ Initialize the directory as a git repository.
 Copy and paste the _output_ of the command(s) you ran into the code block below.
 
 ```
-
+Initialized empty Git repository in /Users/anggelplasencia/pursuit/module1/git-lab/.git/
 ```
 
 ## 3
@@ -31,7 +32,11 @@ Check the current status of the git repository.
 Copy and paste the _output_ of the command(s) you ran into the code block below.
 
 ```
+On branch main
 
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
 ```
 
 ## 4
@@ -41,7 +46,7 @@ Create a new file called `readme.md`. Then stage that file.
 Copy and paste _the command(s)_ you used into the code block below.
 
 ```
-
+touch readme.md
 ```
 
 ## 5
@@ -51,7 +56,15 @@ Check the current status of the git repository.
 Copy and paste the _output_ of the command(s) you ran into the code block below.
 
 ```
+On branch main
 
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        readme.md
+
+nothing added to commit but untracked files present (use "git add" to track)
 ```
 
 ## 6
@@ -67,7 +80,15 @@ Then, check the current status of the git repository.
 Copy and paste the _output_ of the command(s) you ran into the code block below.
 
 ```
+On branch main
 
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        readme.md
+
+nothing added to commit but untracked files present (use "git add" to track)
 ```
 
 ## 7
@@ -77,7 +98,8 @@ Commit your changes and include a sensible commit message. Then, check your repo
 Copy and paste _the command(s)_ you used into the code block below.
 
 ```
-
+git add .
+git commit -m "added readme"
 ```
 
 ## 8
@@ -87,7 +109,8 @@ Check the current status of the git repository.
 Copy and paste the _output_ of the command(s) you ran into the code block below.
 
 ```
-
+On branch main
+nothing to commit, working tree clean
 ```
 
 ## 9
@@ -97,5 +120,6 @@ Stage your changes and then make another commit with a sensible commit message.
 Copy and paste _the command(s)_ you used into the code block below.
 
 ```
-
+git add .
+git commit -m "completed git lab"
 ```
