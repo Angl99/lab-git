@@ -47,6 +47,7 @@ Copy and paste _the command(s)_ you used into the code block below.
 
 ```
 touch readme.md
+git add .
 ```
 
 ## 5
@@ -57,14 +58,9 @@ Copy and paste the _output_ of the command(s) you ran into the code block below.
 
 ```
 On branch main
-
-No commits yet
-
-Untracked files:
-  (use "git add <file>..." to include in what will be committed)
-        readme.md
-
-nothing added to commit but untracked files present (use "git add" to track)
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   readme.md
 ```
 
 ## 6
@@ -81,14 +77,14 @@ Copy and paste the _output_ of the command(s) you ran into the code block below.
 
 ```
 On branch main
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   readme.md
 
-No commits yet
-
-Untracked files:
-  (use "git add <file>..." to include in what will be committed)
-        readme.md
-
-nothing added to commit but untracked files present (use "git add" to track)
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   readme.md
 ```
 
 ## 7
@@ -98,7 +94,6 @@ Commit your changes and include a sensible commit message. Then, check your repo
 Copy and paste _the command(s)_ you used into the code block below.
 
 ```
-git add .
 git commit -m "added readme"
 ```
 
@@ -110,7 +105,10 @@ Copy and paste the _output_ of the command(s) you ran into the code block below.
 
 ```
 On branch main
-nothing to commit, working tree clean
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   readme.md
 ```
 
 ## 9
